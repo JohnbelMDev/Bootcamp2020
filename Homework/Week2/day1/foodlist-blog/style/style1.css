@@ -1,0 +1,80 @@
+/* section > a{
+  color: red;
+} */
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+li {
+  display: inline;
+  letter-spacing: 5px;
+
+
+}
+
+
+a{
+  color: red;
+
+}
+img{
+
+  position: absolute;
+  top: 130px;
+  width: 730px;
+  left:120px;
+}
+section > h2 {
+    color: gray;
+    position: absolute;
+    top: 20px;
+
+    left:120px;
+
+}
+section > h3 {
+    color: black;
+    position: absolute;
+    top: 50px;
+
+    left:120px;
+}
+section > ul > li{
+
+    color: black;
+    position: absolute;
+    top: 650px;
+     
+    left:800px;
+
+}
+
+section > p
+{
+  color: black;
+  position: absolute;
+  top: 500px;
+
+  left:120px;
+
+}
+nav > ul{
+  color:red;
+  position: absolute;
+  top: 670px;
+
+  left:120px;
+
+}
+
+/* section > a{
+  color: red;
+} */

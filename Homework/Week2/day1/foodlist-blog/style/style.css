@@ -1,0 +1,94 @@
+h1
+{
+  color:red;
+}
+
+h2{
+  color:black;
+}
+nav > h1
+{
+  color: red;
+  position: absolute;
+  top: 20px;
+  left:90px;
+}
+
+nav > h2
+{
+  color: black;
+  position: absolute;
+  top: 50px;
+  left:90px;
+}
+
+
+a
+{
+  color: red;
+}
+nav > ul
+{
+  color: black;
+  position: absolute;
+  top: 129px;
+  left:90px;
+  letter-spacing: 40px;
+}
+
+section > h3
+{
+  color: black;
+  font-style: lato;
+  color:gray;
+  position: absolute;
+  top: 240px;
+  left:90px;
+  font-family: Sans-serif;
+}
+/* credit to w3 */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+li {
+  display: inline;
+  letter-spacing: 4px;
+
+}
+
+
+/* a{
+  color: gray;
+} */
+
+section > h2{
+  color:gray;
+  position: absolute;
+  top: 200px;
+  left:90px;
+  font-family: Sans-serif;
+}
+section > p{
+
+  color:gray;
+  position: absolute;
+  top: 500px;
+  width: 730px;
+  left:120px;
+  font-family: Sans-serif;
+}
+section > a
+{
+  color: yellow;
+}
+img {
+  height: 206px;
+  position: absolute;
+  top: 295px;
+  left:90px;
+}
