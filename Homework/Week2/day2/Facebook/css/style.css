@@ -1,0 +1,591 @@
+/*****************************************************************w3  ****************************************************************/
+
+p{
+  margin:0;
+}
+li{
+  list-style-type: none;
+}
+.top {
+  border: 3px solid #4CAF50;
+  /* padding: 5px; */
+  /* margin-top:-7px; */
+height:60px;
+  width: 100%;
+  background-color:lightblue;
+}
+
+.top > input{
+  width:50%;
+  margin: 17px 17px 20px 5px;
+}
+
+.horizon{
+  display: inline;
+  margin: 0 0 0 0;
+
+}
+
+
+.home{
+margin: 2px 333px 1px -4px;
+  float:right;
+}
+
+.icon{
+
+      margin: 21px -345px 11px 5px;
+  float:right;
+}
+/* .clearfix::after {
+content: "";
+clear: both;
+display: table;
+} */
+/*****************************************************************  ****************************************************************/
+
+
+
+/*****************************************************************w3  ****************************************************************/
+
+
+
+/*
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+} */
+/*****************************************************************  ****************************************************************/
+
+
+
+
+
+
+/*****************************************************************w3  ****************************************************************/
+
+
+/*****************************************************************  ****************************************************************/
+
+.side{
+  background-color: lightgray;
+  float:left;
+  margin-top:1px;
+  padding:20px;
+  width: 14%;
+
+  height: 890px;
+}
+
+
+/*****************************************************************  ****************************************************************/
+
+.middle{
+  background-color: lightgray;
+  float:right;
+  margin-top:15px;
+  margin-right: 501px;
+  padding:20px;
+  width: 42%;
+  height: 890px;
+}
+/*****************************************************************w3  ****************************************************************/
+
+.listing{
+  background-color: lightgray;
+  float:right;
+  margin-top:-935px;
+
+  margin-right: 17%;
+  padding:20px;
+  width: 18%;
+  height: 720px;
+}
+/*****************************************************************w3  ****************************************************************/
+.listin01{
+  background-color: green;
+  float:left;
+  margin-top:35px;
+
+  margin-right: 17%;
+  padding:20px;
+  width: 80%;
+  height: 20px;
+}
+/*****************************************************************w3  ****************************************************************/
+.listin02{
+  background-color: green;
+  float:left;
+  margin-top:35px;
+
+  margin-right: 17%;
+  padding:20px;
+  width: 80%;
+  height: 190px;
+}
+/*****************************************************************w3  ****************************************************************/
+
+.listin03{
+  background-color: green;
+  float:left;
+  margin-top:35px;
+
+  margin-right: 17%;
+  padding:20px;
+  width: 80%;
+  height: 190px;
+}
+
+
+
+/*****************************************************************w3  ****************************************************************/
+.listin04{
+  background-color: green;
+  float:left;
+  margin-top:35px;
+
+  margin-right: 17%;
+  padding:20px;
+  width: 80%;
+  height: 190px;
+}
+/*****************************************************************w3  ****************************************************************/
+.inlistin03{
+  background-color:purple;
+  float:left;
+  margin-top:-19px;
+
+  margin-left: -11%;
+  padding:20px;
+  width: 100%;
+  height: 10px;
+}
+
+/*****************************************************************w3  ****************************************************************/
+.inlistin04{
+  background-color: red;
+  float:left;
+  margin-top:5px;
+
+  margin-left: -9%;
+  padding:20px;
+  width: 10%;
+  height: 10px;
+}
+
+
+
+/*****************************************************************w3  ****************************************************************/
+
+.inlistin05{
+  background-color: blue;
+  float:left;
+  margin-top:-15px;
+
+  margin-left: -9%;
+  padding:20px;
+  width: 100%;
+  height: 10px;
+}
+
+/*****************************************************************w3  ****************************************************************/
+
+/*****************************************************************w3  ****************************************************************/
+.inlistin06{
+  background-color: blue;
+  float:left;
+  width: 100%;
+  height:60px;
+
+}
+/*****************************************************************w3  ****************************************************************/
+.inlistin07{
+  background-color: red;
+  float:right;
+  width: 33%;
+  height: 50%;
+  text-align: center;
+}
+/*****************************************************************w3  ****************************************************************/
+.inlistin08{
+  background-color: white;
+  float:left;
+  width: 33%;
+  height: 50%;
+  text-align: center;
+
+}
+
+/*****************************************************************w3  ****************************************************************/
+/*****************************************************************w3  ****************************************************************/
+.inlistin09{
+  background-color: red;
+  float:left;
+  width: 33%;
+  text-align: center;
+
+  height: 50%;
+}
+/*****************************************************************w3  ****************************************************************/
+.inlistin10{
+  background-color: white;
+  float:left;
+  width:100%;
+  height: 50%;
+  text-align: center;
+
+}
+
+/*****************************************************************w3  ****************************************************************/
+
+.chat{
+  background-color: lightgray;
+  float:right;
+  margin-top:-935px;
+border: 3px solid gray;
+  margin-right: -1%;
+  padding:20px;
+  width: 15%;
+  height: 890px;
+}
+
+/*****************************************************************w3  ****************************************************************/
+
+.stories{
+  background-color: pink;
+  float:left;
+  margin-top:15px;
+  margin-right: 501px;
+  padding:20px;
+  width: 91%;
+  height: 90px;
+}
+.stories + label + input {
+size="50"
+}
+
+/*****************************************************************  ****************************************************************/
+
+
+.St02{
+  background-color: yellow;
+  float:left;
+  margin-top:15px;
+  margin-right: 501px;
+  padding:20px;
+  width: 91%;
+  height: 190px;
+}
+
+
+.St03{
+  background-color: yellow;
+  float:left;
+  margin-top:15px;
+  margin-right: 501px;
+  padding:20px;
+  width: 91%;
+  height: 190px;
+}
+
+
+
+
+
+/*****************************************************************w3  ****************************************************************/
+
+.Ins1{
+  background-color: green;
+  float:left;
+  margin:0 0 0 0;
+
+  padding:20px;
+  width: 17%;
+  height: 160px;
+
+      background-repeat: no-repeat;
+      background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+     background-size: cover;
+     border-radius: 15%;
+}
+
+
+
+/*****************************************************************  ****************************************************************/
+.Ins2{
+  background-color: blue;
+  float:right;
+    margin: 3px 86px 0px 7px
+  padding:20px;
+  width: 17%;
+  height: 160px;
+
+      background-repeat: no-repeat;
+      background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+     background-size: cover;
+     border-radius: 15%;
+
+}
+
+
+
+
+/*****************************************************************w3  ****************************************************************/
+
+
+.Ins3{
+  background-color: orange;
+  float:left;
+  margin:0 0 0 0;
+;
+  padding:20px;
+  width: 17%;
+  height: 160px;
+  border-radius: 15%;
+
+}
+
+
+
+
+/*****************************************************************  ****************************************************************/
+
+.Ins3{
+  background-color: orange;
+  float:left;
+margin:-184px 6px 14px 294px;
+  padding:20px;
+width:47%;
+  height: 160px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+
+}
+
+
+
+
+
+.Ins4{
+  background-color: red;
+  float:left;
+    margin: -216px 15px 13px 419px;
+  padding:20px;
+  width: 42%;
+
+  height: 160px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+
+}
+
+
+
+
+/*****************************************************************w3  ****************************************************************/
+
+
+
+.post{
+  width:100%;
+  height:80px;
+    margin: -23px 3px 8px 2px;
+    border: none;
+  }
+
+/*****************************************************************  ****************************************************************/
+.post1{
+  width:100%;
+  height:20px;
+    margin: -23px 3px 8px 2px;
+    border: none;
+    background-color: gray;
+  }
+/*****************************************************************  ****************************************************************/
+.InChat1{
+  width:100%;
+  border: 1px solid red;
+  height:76px;
+   margin:18px 3px 8px 2px;
+    border: none;
+    background-color: lightgray;
+}
+
+/*****************************************************************  ****************************************************************/
+.InChat2{
+  width:100%;
+height:66px;
+
+    margin: 7px 3px 8px 2px;
+  border: none;
+    background-color: lightgray;
+}
+
+
+/*****************************************************************w3  ****************************************************************/
+.InChat3{
+  width:100%;
+height:149px
+   margin:18px 3px 8px 2px;
+    border: none;
+    background-color: lightgray;
+}
+
+
+
+.InChat4{
+  width:100%;
+height:197px;
+   margin:18px 3px 8px 2px;
+    border: none;
+    background-color: lightgray;
+}
+
+
+
+.InChat5{
+  width:100%;
+height:117px;
+   margin:18px 3px 8px 2px;
+    border: none;
+    background-color: lightgray;
+}
+
+
+.IP{
+  width:124%;
+margin:5px 19px 22px -39px
+}
+
+.InChat6{
+  width:100%;
+  height:20px;
+   margin:18px 3px 8px 2px;
+    border: none;
+    background-color: lightgray;
+}
+
+
+
+/*****************************************************************  ****************************************************************/
+.Ins3{
+  background-color: orange;
+  float:left;
+margin:-184px 6px 14px 294px;
+  padding:20px;
+width:47%;
+  height: 160px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+
+}
+
+.Chat1{
+  background-color: red;
+  float:left;
+margin:10px -36px 3px 14px;
+  padding:20px;
+width:4%;
+  height: -5px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+}
+
+
+
+.Chat2{
+  background-color: red;
+  float:left;
+margin: 10px -77px 3px 40px;
+  padding:20px;
+width:4%;
+  height: -5px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+}
+
+
+
+.Chat3{
+  background-color: red;
+  float:left;
+margin:12px -32px -48px 85px;
+  padding:20px;
+width:4%;
+  height: -5px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+}
+
+
+
+
+
+.Chat4{
+  background-color: red;
+  float:left;
+margin:12px -32px -48px 85px;
+  padding:20px;
+width:4%;
+  height: -5px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+}
+
+
+
+
+
+
+.Chat5{
+  background-color: red;
+  float:left;
+margin:12px -32px -48px -73px;
+  padding:20px;
+width:4%;
+  height: -5px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+}
+
+
+
+
+.Chat6{
+  background-color: red;
+  float:left;
+margin:7px -30px -45px 141px;
+  padding:20px;
+width:4%;
+  height: -5px;
+
+    background-repeat: no-repeat;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
+   background-size: cover;
+   border-radius: 15%;
+}

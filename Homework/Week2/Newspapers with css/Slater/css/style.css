@@ -41,3 +41,33 @@
  /* padding:20px; */
  /* text-decoration: underline; */
 }
+
+
+.trump{
+  border: 2px solid black;
+  width:68%;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  border:2px solid black;
+  width:50%;
+  height:180px;
+  float:right;
+margin: -30px 1px 0 0;
+}
+
+.containerText >p{
+
+  color:white;
+  line-height: 18px;
+}
+
+.topLeftText{
+  width:50%;
+  border:2px solid black;
+  margin: 28px 1px 0 0;
+
+
+}

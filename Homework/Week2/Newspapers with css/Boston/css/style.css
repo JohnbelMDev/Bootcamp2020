@@ -1,57 +1,91 @@
 
 
-* {
-  box-sizing: border-box;
+.wholeright{
+  float:left;
+    margin-top: 159px;
+  margin-left: 80px;
+  width: 49%;
+  height:680px;
+  border: 1px solid red;
+  padding: 1px;
+
+}
+
+.rightpicture{
+  float:left;
+    margin-top: 12px;
+  margin-left: -1px;
+   width: 65%;
+  height:680px;
+  border: 1px solid red;
+  /* padding: 1px; */
+
 }
 
 
 
 
-
-.section01{
-  border:1px solid black;
-  float: left;
- width: 100%;
- /*  padding: 10px; */
- height: 60px;
+.rightsisde{
+    float:right;
+    margin-top: 190px;
+    /* right: 0px; */
+    width: 40%;
+    height:680px;
+    border: 3px solid #73AD21;
+    padding: 10px;
 
 }
-/* w3 */
-.section02 {
-  float: left;
- width: 55.33%;
- height:840px;
- padding: 50px;
-background-color:green;
-margin-left: 175px;
-margin-top: 120px;
-}
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.section04 {
-  float: left;
- width: 55.33%;
- height:840px;
- padding: 50px;
-background-color:red;
-margin-left: 295px;
-margin-top:-340px;
+/* ------------------------------------------------------- */
+
+.side{
+  float:left;
+    /* margin-top: -638px; */
+  /* margin-left: 331px; */
+  width: 30%;
+  height:680px;
+  border: 1px solid red;
+  /* padding: 1px; */
+
 }
 
-.section03{
- float: left;
- width: 20%;
- height: 494px;
 
- /* height: 300px; */
+.bottom{
+  /* float:right; */
+    /* margin-top: -638px;
+  margin-left: 331px; */
+  /* width: 78%; */
+  height:680px;
+  border: 1px solid red;
 
- /* height: 380; */
- border:1px solid black;
+}
+.bottom > ul{
+  /* list-style-type: none; */
+   display: inline;
+}
+.listsection{
+    float:left;
+    margin-top: s10px;
+    /* right: 0px; */
+    width: 100%;
+    height:680px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    line-height: 2.1em;
 
- /* padding: 10px; */
- /* height: 300px; */
+}
 
+.picture{
+    float:right;
+    /* margin-top: 20px; */
+    /* right: 0px; */
+    width: 70%;
+    margin-right: 80px;
+    /* height:680px; */
+    border: 3px solid #73AD21;
+    /* padding: 10px; */
+    /* line-height: 2.1em; */
+
+}
+.picture > img{
+  height: 280px;
 }
