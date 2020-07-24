@@ -236,6 +236,11 @@ margin-top: 3px;
   border:1px solid black;
 }
 
+.search{
+margin:-107px  3px 4px 92px;
+float:left;
+}
+
 /* .section03 > img{
  weight:80px;
  height:20px;

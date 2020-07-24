@@ -1,21 +1,48 @@
 /*****************************************************************w3  ****************************************************************/
+body{
+  background-color: lightgray;
+
+}
+
 
 
 header {
   background-color: black;
 }
+li{
+     display: inline;
+     display:inline-block;
+}
+select option {
+ display:inline-block;
+}
 
+select {
+width: 120px;
+height:30px;
+margin: 10px;
+}
+ul{
+       display: inline;
+}
 p{
   margin:0;
 }
 
+
+.Select01{
+margin:11px 57px 9px -47px;
+}
+.shift{
+  margin:0 0 0 0;
+}
 .top {
   border: 3px solid #4CAF50;
   /* padding: 5px; */
   /* margin-top:-7px; */
   height:80px;
   width: 100%;
-  background-color: blue;
+  background-color: #0B7FF5 ;
 }
 
 
@@ -52,7 +79,7 @@ display: table;
 /*****************************************************************  ****************************************************************/
 
 .side{
-  background-color: gray;
+
   float:left;
   margin-top:1px;
   padding:20px;
@@ -60,7 +87,14 @@ display: table;
   height: 890px;
 }
 
-
+.BT{
+margin:41px 3px 2px 155px;
+background-color: green;
+color:white;
+width:36%;
+height:59px;
+border-radius: 25px;
+}
 /*****************************************************************  ****************************************************************/
 
 .middle{
@@ -243,7 +277,6 @@ display: table;
 /*****************************************************************w3  ****************************************************************/
 
 .chat{
-  background-color: gray;
   float:right;
   margin-top:-3px;
 
@@ -252,7 +285,13 @@ display: table;
   width: 42%;
   height: 890px;
 }
-
+.inside01{
+  float:right;
+margin:4px  -125px 10px 4px;
+  padding:20px;
+  width: 86%;
+  height: 890px;
+}
 /*****************************************************************w3  ****************************************************************/
 
 .stories{
@@ -292,9 +331,15 @@ size="50"
   height: 190px;
 }
 
+.inputsize{
+  width:40%;
+  height:27px;
+}
 
-
-
+.inputsize2{
+  width:82%;
+  height:27px;
+}
 
 /*****************************************************************w3  ****************************************************************/
 
@@ -357,13 +402,35 @@ size="50"
 
 /*****************************************************************w3  ****************************************************************/
 
+.headinput8{
+  width:20%;
+  height:27px;
+  margin:0 0 0 0;
+}
 
+.topInput{
+margin:-40px -271px 13px 789px;
+}
 
+.Topbutton{
+margin:-48px 18px 4px 1127px;
+}
 
-
+.sizeBt{
+  width:90px;
+  background-color: blue;
+  color:white;
+  border-radius: 25px;
+  height:38px;
+  width:94%;
+}
 /*****************************************************************  ****************************************************************/
 
 /*****************************************************************  ****************************************************************/
+.lorem{
+  margin: 12px 7px 12px 13px;
+      float: right;
+}
 
 
 /*****************************************************************  ****************************************************************/
