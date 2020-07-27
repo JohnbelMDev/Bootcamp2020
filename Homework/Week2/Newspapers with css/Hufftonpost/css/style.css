@@ -1,0 +1,121 @@
+.botTon{
+  display: block;
+margin: 108px 7px 12px 183px;
+padding: 0px;
+position: relative;
+top: 90px;
+height: auto;
+max-width: auto;
+border-top: 1px solid green;
+white-space: nowrap
+}
+.bottoncontent > img {
+  width:16%;
+}
+
+.bottoncontent{
+  display: inline;
+      margin: 34px 20px 7px 21px;
+      padding: 0px;
+      vertical-align: middle;
+      width: 200px;
+}
+.images {
+  display: inline;
+      margin: 34px 20px 7px 21px;
+      padding: 0px;
+      vertical-align: middle;
+      width: 200px;
+}
+
+.bottoncontent{
+      margin: 34px 20px 7px 21px;
+}
+.content {
+  display: block;
+margin: 423px 7px 12px 183px;
+padding: 0px;
+position: relative;
+top: 90px;
+height: auto;
+max-width: auto;
+border-top: 1px solid green;
+white-space: nowrap
+}
+.images > img {
+  width:16%;
+}
+
+
+
+header{
+  background-color: #2E7061;
+  height: 80px;
+}
+header nav li{
+  display: inline-block;
+}
+.fit{
+    width: 40%;
+  height:103px;
+  float:left;
+  margin: 2px 3px 2px 411;
+
+}
+
+
+.topBottompicture{
+    width: 10%;
+    float: left;
+  height:103px;
+  float:left;
+  border-top: 1px solid green;
+  margin: 2px 3px 2px 411;
+
+}
+
+
+
+.fit > img {
+  width: 175px;
+  height: 266px
+}
+.midH2 > h2{
+  font-size: 40px;
+  width:39%;
+  margin:0 0 0 438px
+}
+
+.head{
+  float: left;
+margin:10px 7px 13px 0px ;
+ width:100%;
+  border: 2px solid lightgrey;
+}
+.head a {
+  float: left;
+  padding: 32px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width:100%; /* Four links of equal widths */
+  text-align: center;
+}
+.icon li{
+  display: inline-block;
+  float:right;
+  margin: 21px 13px 2px 6px;
+
+}
+.middleHeader{
+  float: right;
+  color: red;
+
+  border: 2px solid lightgrey;
+}
+header h1{
+  float:left;
+  margin: 21px 3px 4px 478px;
+  border: 1px solid white;
+  padding: 3px 11px 4px 11px
+}

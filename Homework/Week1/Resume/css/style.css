@@ -1,0 +1,25 @@
+.side{
+  float: left;
+width: 44%;
+height: 1200px;
+margin: 3px 0 0 461px;
+background: white;
+}
+
+.top{
+  padding: 4px 4px 1px 157px;
+    float: left;
+    width: 29%;
+    height: 107px;
+    margin: 3px 10px 5px 448px;
+    background: gray;
+}
+
+
+.about{
+
+  background-color: beige;
+  float: left;
+  margin: -1261px 5px 5px -342px;
+  width: 56%;
+}

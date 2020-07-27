@@ -1,94 +1,114 @@
-h1
-{
-  color:red;
+header a {
+  display: inline;
+  color: lightgrey;
 }
 
-h2{
-  color:black;
-}
-nav > h1
-{
+header h1 {
   color: red;
-  position: absolute;
-  top: 20px;
-  left:90px;
+  margin: -84px 6px 5px 90px;
+  height: 100px;
+  float: none;
+  margin: 3px 2px -5px 88px
 }
 
-nav > h2
-{
-  color: black;
-  position: absolute;
-  top: 50px;
-  left:90px;
+header h2 {
+  float: none;
+  margin: -50px 5px 4px 91px;
+  height: 128px;
 }
 
-
-a
-{
+.up {
+  float: left;
+  margin: 0 0 0 0;
   color: red;
-}
-nav > ul
-{
-  color: black;
-  position: absolute;
-  top: 129px;
-  left:90px;
-  letter-spacing: 40px;
-}
-
-section > h3
-{
-  color: black;
-  font-style: lato;
-  color:gray;
-  position: absolute;
-  top: 240px;
-  left:90px;
-  font-family: Sans-serif;
-}
-/* credit to w3 */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-
 }
 
 li {
+  list-style-type: none;
+}
+
+.list-child {
   display: inline;
-  letter-spacing: 4px;
-
+  float: left;
+  margin: -20px -51px 13px 51px;
+  font-size: 23px;
+  width: 10%;
+  color: lightgrey;
 }
 
-
-/* a{
-  color: gray;
-} */
-
-section > h2{
-  color:gray;
-  position: absolute;
-  top: 200px;
-  left:90px;
-  font-family: Sans-serif;
+.chilclass {
+  font-size: 20px;
+  margin: 60px 4px 4px 91px;
 }
-section > p{
 
-  color:gray;
-  position: absolute;
-  top: 500px;
-  width: 730px;
-  left:120px;
-  font-family: Sans-serif;
+.chilclass>img {
+  width: 60%;
+  height: 200px;
 }
-section > a
-{
-  color: yellow;
+
+.next a {
+  margin: 0 499px -1px -3px;
+  float: right;
+  color: red;
+  font-size: 29px;
 }
-img {
-  height: 206px;
-  position: absolute;
-  top: 295px;
-  left:90px;
+
+.Paris {
+  float: right;
+  margin: 61px 6px 5px 101px;
+  color: lightgrey;
+  height: 41px;
+}
+
+.childParis {
+  marging: 0 0 0 0px;
+}
+
+.nextbottom a {
+  margin: 532px 4px 13px 738px;
+  float: left;
+  color: red;
+  font-size: 29px;
+}
+
+.Footer {
+  overflow: hidden;
+  color: red;
+  bottom: 0;
+  margin: 4px 36px 36px 42px;
+  width: 40%;
+}
+
+.Footer a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Footer p {
+  float: right;
+  margin: 0 341px 0 0
+}
+
+.lorem {
+  font-weight: 400;
+  font-size: 108px;
+  font-family: Arial;
+  float: left;
+  margin: -28px 3px -1px -11px;
+  width: 49px;
+}
+
+.lorem1 {
+  font-weight: 400;
+  color: lightgrey;
+  font-size: 108px;
+  font-family: Arial;
+  float: left;
+  margin: -35px 10px 1px -8px;
+  width: 49px;
 }

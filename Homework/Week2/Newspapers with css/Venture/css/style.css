@@ -1,10 +1,16 @@
 header{
   background-color: black;
+  height:80px;
 }
 li{
   display: inline-block;
-  color:white;
+  /* color:white; */
   margin-left:90px;;
+}
+
+.headClas1{
+  margin:4px 0 0 0;
+  width:100%;
 }
 
 .picture {
@@ -21,7 +27,50 @@ li{
   background-repeat: no-repeat;
   background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg");
  background-size: cover;
+
+
+
+
   /* color: white; */
 }
 
 /* credit to mdn ******************************/
+/*  */
+a{
+  color:white;
+
+}
+.ulist{
+margin:5px 391px -1px -5px;
+
+
+}
+li{
+  display: inline-block;
+    float: right;
+margin:26px 6px 2px 18px;
+}
+.bottom{
+margin:13px 1px 2px 122px
+  float: left;
+  width: 50%;
+  height: 187px;
+  margin: 0 0 0 120px;
+  /* color:white; */
+
+}
+
+
+  .textBottom{
+    /* border: 3px solid red; */
+  float: left;
+  width: 50%;
+  height: 187px;
+  margin: -173px 7px 4px 287px;
+
+  }
+  .picture h2{
+    background-color: white;
+    width:30%;
+    margin: 338px 3px 2px 53px;
+  }

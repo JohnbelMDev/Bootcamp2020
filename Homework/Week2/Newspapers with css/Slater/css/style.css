@@ -11,7 +11,9 @@
   /* width:990px; */
   width:31.33%;;
   float:right;
-  height: 200px;
+  height:65px;
+  background-color: purple;
+
   /* padding:20px; */
   /* text-decoration: underline; */
 }
@@ -20,28 +22,54 @@
 .sec02 {
  /* margin:70px; */
  border:1px solid gray;
+ background-color: lightgray;
  /* width:990px; */
  width:100%;
  float:left;
+ line-height:30px;
 
  margin-top: 97px;
- height: 200px;
+ height: 65px;
  /* padding:20px; */
  /* text-decoration: underline; */
 }
 .sec03 {
  /* margin:70px; */
  border:1px solid gray;
+ background-color: lightgray;
  /* width:990px; */
  width:100%;
  float:left;
-
+height:79px;
  margin-top: 0.1px;
- height: 200px;
+ /* height: 200px; */
  /* padding:20px; */
  /* text-decoration: underline; */
 }
+.sec04{
 
+  padding: 3px 15px 8px 7px;
+background-color: purple;
+width: 100%;
+height: 51px;
+margin: -499px 12px 30px -1px;
+float: left;
+}
+
+
+.sec05{
+
+  padding: 3px 15px 8px 7px;
+  background-color: brown;
+  width: 100%;
+  height: 51px;
+  margin: -451px 12px 30px -1px;
+  float: left;
+}
+.sec04 h2
+{
+  color:white;
+}
 
 .trump{
   border: 2px solid black;
@@ -51,11 +79,11 @@
   background-size: cover;
 }
 .container{
-  border:2px solid black;
-  width:50%;
-  height:180px;
-  float:right;
-margin: -30px 1px 0 0;
+
+  width: 49%;
+  height: 189px;
+  float: right;
+  margin: -110px 0px 0 0
 }
 
 .containerText >p{
@@ -65,9 +93,75 @@ margin: -30px 1px 0 0;
 }
 
 .topLeftText{
-  width:50%;
-  border:2px solid black;
-  margin: 28px 1px 0 0;
+  width: 27.5%;
+      border: 2px solid black;
+      margin: -1px 5px 2px 2px;
 
 
+
+}
+
+
+.toprightText{
+  width: 68.8%;
+      border: 2px solid black;
+      margin: -1px 5px 2px 2px;
+height:81px;
+background-color: lightgrey;
+
+
+}
+
+.toprightText h2{
+  color:purple;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.chilfoftopright{
+  width: 46.8%;
+  padding: 0px 2px 3px 40px;
+  border: 2px solid black;
+  margin: -73px -16px 8px 12px;
+  height: 80px;
+  background-color: #4b0082;
+  float: right;
+  border-radius: 39px
+
+
+}
+
+.childRight{
+  width: 40.8%;
+  border: 2px solid black;
+  margin: -199px -421px 7px 11px;
+  height: 127px;
+  background-color: #7F1734;
+  float: right;
+  padding: 0 0 0 9px;
+
+}
+
+.childRight > h2{
+  color:white;
+}
+.chilfoftopright > h2{
+  color:white;
+}
+
+.childRight1{
+  width: 40.8%;
+border: 2px solid lightgrey;
+margin: -374px -421px 8px 11px;
+height: 167px;
+background-color: lightgrey;
+float: right;
+    padding: 0 0 0 9px;
+}
+.childRight1 > h2{
+  color:black;
 }
