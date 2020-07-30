@@ -3,4 +3,4 @@
 
 If you want to embed images, this is how you do it:
 
-![Image of Yaktocat](file:///Users/johnbel/Desktop/Screen%20Shot%202020-07-30%20at%204.16.25%20AM.png)
+![Image of Yaktocat](https://github.com/JohnbelMDev/Bootcamp2020/blob/master/Homework/Week2/Newspapers%20with%20css/Boston/img/Boston.png?raw=true)
