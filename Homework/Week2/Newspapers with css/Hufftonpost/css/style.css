@@ -12,7 +12,6 @@ white-space: nowrap
 .bottoncontent > img {
   width:16%;
 }
-
 .bottoncontent{
   display: inline;
       margin: 34px 20px 7px 21px;
@@ -27,7 +26,6 @@ white-space: nowrap
       vertical-align: middle;
       width: 200px;
 }
-
 .bottoncontent{
       margin: 34px 20px 7px 21px;
 }
@@ -45,9 +43,6 @@ white-space: nowrap
 .images > img {
   width:16%;
 }
-
-
-
 header{
   background-color: #2E7061;
   height: 80px;
@@ -60,10 +55,7 @@ header nav li{
   height:103px;
   float:left;
   margin: 2px 3px 2px 411;
-
 }
-
-
 .topBottompicture{
     width: 10%;
     float: left;
@@ -71,11 +63,7 @@ header nav li{
   float:left;
   border-top: 1px solid green;
   margin: 2px 3px 2px 411;
-
 }
-
-
-
 .fit > img {
   width: 175px;
   height: 266px
@@ -85,7 +73,6 @@ header nav li{
   width:39%;
   margin:0 0 0 438px
 }
-
 .head{
   float: left;
 margin:10px 7px 13px 0px ;

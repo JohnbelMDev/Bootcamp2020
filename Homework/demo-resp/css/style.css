@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+header, footer{
+  height: 100px;
+  border: 2px solid black;
+  clear: both;
+}
+header li{
+  height: 50px;
+  width: 5%;
+  border: 1px solid black;
+  margin: 6px 0 0 3%;
+  float: left;
+}
+ul{
+  list-style: none;
+}
+section{
+  height: 300px;
+  width: 33.3333%;
+  float: left;
+  border: 1px solid black;
+}
+header + section{
+  width: 100%;
+}
+.impossible{
+  display: none;
+  background: green;
+}
+
+.menu{
+  width: 5%;
+  border: 1px solid black;
+  margin: 6px 0 0 3%;
+  float: left;
+}
+
+@media only screen and (max-width: 600px){
+  li{
+    display: none;
+  }
+  .impossible{
+    display: block;
+  }
+  .menu{
+    float:right;
+  }
+  .ChildofUl{
+    display: none;
+  }
+  section{
+    width: 100%;
+  }
+}
+@media (min-width:601px) and (max-width:800px) {
+  section{
+    width: 100%;
+  }
+}

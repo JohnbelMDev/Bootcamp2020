@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+
+}
+
+header,
+
+.middleSection,
+.middleChild,
+.bottomSection,
+.middleChild1,
+.bottomSec,
+footer,
+footer nav ul li,.middleChild ul li,  .leftchilmild,.lefttmid{
+
+  border: 1px solid blue;
+
+}
+.buttonRight{
+  float:right;
+}
+.buttons ul li{
+  margin: 8px 0px 4px 208px;
+  width: 0%;
+  display: inline-block;
+}
+.inPut{
+  width:24%;
+  height:30px;
+  margin:243px 2px 4px 2px;
+}
+
+header{
+  float:left;
+  clear: both;
+  width:100%;
+  height:535px;
+  background-color: black;
+  color:white;
+  background: url("https://health.clevelandclinic.org/wp-content/uploads/sites/3/2019/06/cropped-GettyImages-643764514.jpg");
+  background-size: cover;
+
+/* background:  */
+}
+
+
+header nav ul li{
+  float: left;
+  display: block;
+  width: 9%;
+  overflow: auto;
+  /* height: 48px; */
+  margin: 15px -11px 5px 28px;
+  text-align: center
+
+
+}
+.menu{
+  width: 5%;
+  border: 1px solid black;
+  margin: 6px 0 0 3%;
+  float: left;
+}
+
+.middleSection{
+float:left;
+width:100%;
+overflow: hidden
+
+/* height:360px; */
+clear:both;
+}
+.lefttmid{
+  float: left;
+  width: 75%;
+  height: 438px;
+  background-color: green;
+}
+.rightmidchild{
+  float: right;
+  width:40%;
+  height:440px;
+  background-color: red;
+  clear: both;
+}
+
+.rightmidchild ul li{
+/* background-color: blue; */
+height:90px;
+margin:13px 13px 13px 13px;
+}
+
+.lefttmid2{
+  float: left;
+  width: 60%;
+  height: 438px;
+  background-color: purple;
+}
+
+
+.middleChild{
+  margin: 12px -1px 2px 2px;
+float: right;
+width: 24%;
+background-color: white;
+/* height: 360px; */
+overflow: hidden
+}
+
+.middleChild ul li{
+       float: right;
+      display: block;
+      width: 100%;
+      /* height: 157px; */
+      margin: 14px 14px 5px 28px
+}
+
+.colorgreen{
+      background-color: green;
+      color:white;
+      font-size: 11px;;
+}
+.gray{
+  background-color: gray;
+  height:50px;
+  text-align: left;
+}
+
+.middleChild1{
+  float:right;
+  display: block;
+  width:29%;
+  /* height:190px; */
+  margin: 0 0 0 0;
+  /* background-color: white; */
+}
+
+.bottomSection{
+  float:left;
+  width:100%;
+  /* height: 260px; */
+  clear: both;
+  overflow: auto;
+}
+
+
+
+.bottomSec{
+  width:33.3333%;
+  float:left;
+  /* height: 260px; */
+  clear: both;
+  /* overflow: auto; */
+}
+
+footer{
+  float:left;
+  clear:both;
+  width:100%;
+  height:130px;
+}
+
+footer nav ul li{
+  float: left;
+      display: block;
+      width: 26%;
+      height: 323px;
+      margin: 14px 14px 5px 28px;
+
+}
+
+@media only screen and (max-width:768px){ /*insert responsive css here*/
+.ChildofFooter{
+display:none;
+}
+.header1{
+  display:none;
+}
+.menu{
+  float:right;
+  /* display: none; */
+}
+.middleSection, .leftchilmild,.middleChild{
+  width:100%;
+}
+.bottomSec{
+width: 100%;
+}
+header nav ul .ChildofUl{
+  float: left;
+  display: none;
+
+}
+img iframe{
+  width:100%;
+  height:100%;
+
+}
+
+}
+
+
+
+
+
+/*********************  ****************************/
+
+/* for ipads */
+   /* @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2)
+   {
+     .ChildofFooter{
+     display:none;
+     }
+     .header1{
+       display:none;
+     }
+     .menu{
+       float:right;
+       /* display: none; */
+     }
+     .middleSection, .middleChild{
+       display: none;
+     }
+     .bottomSec{
+     width: 100%;
+     }
+     header nav ul .ChildofUl{
+       float: left;
+       display: none;
+
+     }
+   }
+
+/*********************  ****************************/
+/* Media Query for Laptops and Desktops */
+
+
+/* @media only screen and (max-width:960px){ /*insert responsive css here*/
+
+/* @media only screen and (max-width:960px){ /*insert responsive css here*/ */

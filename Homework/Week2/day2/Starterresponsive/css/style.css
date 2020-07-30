@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+
+}
+/* Global */
+header, .header1,.middleSection, .bottomSection, .bottomchildSection1, footer{
+  border: 1px solid black;
+
+}
+/* nav li{
+  float: right;
+  display: inline;
+  margin:15px 59px 45 29px;
+ border-left: 1px solid red;
+} */
+li{
+  list-style-type: none;
+
+}
+header{
+  float:left;
+/* clear: both; */
+  width:100%;
+  height:130px;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* header1 size is 12 because it is inside of the parent section */
+.header1{
+  float: left;
+  width: 12%;
+  height: 88px;
+  margin: 14px 14px 5px 28px;
+}
+.middleSection{
+float:left;
+width:100%;
+height:260px;
+clear:both;
+}
+
+.bottomSection{
+  float:left;
+  width:100%;
+  height: 260px;
+}
+/* using clear so when the screen resize the content doesn't float out */
+.bottomSection:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottomchildSection1{
+  width:33.3333%;
+  float:left;
+  height: 260px;
+}
+
+footer{
+  float:left;
+  clear:both;
+  width:100%;
+  height:130px;
+}
+
+
+@media only screen and (max-width:768px){ /*insert responsive css here*/
+  /* targetting only the footer section to diplay nothing when the screen resize */
+.footer1{
+display:none; }
+/* targetting only the header section to diplay nothing when the screen resize */
+
+.header1{
+  display:none;
+}
+.bottomchildSection1{
+  display:none;
+}
+/* targetting only the middleSection section to diplay nothing when the screen resize */
+
+.middleSection{
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+/* for ipads */
+   @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2)
+   {
+     .footer1{
+     display:none; }
+     /* targetting only the header section to diplay nothing when the screen resize */
+
+     .header1{
+       display:none;
+     }
+     /* targetting only the middleSection section to diplay nothing when the screen resize */
+
+     .middleSection{
+       display: none;
+     }
+   }
+
+/*********************  ****************************/
+/* Media Query for Laptops and Desktops */
+      @media (min-width: 1025px) and (max-width: 1280px){
+        .footer1{
+        display:none; }
+        /* targetting only the header section to diplay nothing when the screen resize */
+
+        .header1{
+          display:none;
+        }
+        /* targetting only the middleSection section to diplay nothing when the screen resize */
+
+        .middleSection{
+          display: none;
+        }
+      }
+/* @media only screen and (max-width:960px){ /*insert responsive css here*/
+
+/* @media only screen and (max-width:960px){ /*insert responsive css here*/
