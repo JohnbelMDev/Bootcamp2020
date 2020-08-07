@@ -1,223 +1,409 @@
-* {
-  box-sizing: border-box;
+
+
+
+
+* { box-sizing: border-box;}
+
+a{
+  text-decoration:none;
+  font-size: 26px;
 
 }
-
-header,
-header nav ul li,
-.middleSection,
-.middleChild,
-.bottomSection,
-.middleChild1,
-.bottomSec,
-footer,
-footer nav ul li,.middleChild ul li,  .leftchilmild,.lefttmid{
-
-  border: 1px solid blue;
-
+.smalText{
+  padding: 4px 11px 5px 82px;
+      /* margin: 0 0 0 53px; */
+      width: -14%;
+      color: lightgray;
+      font-size: 12px;
+      float: left
 }
-
-
-header{
+header h3{
   float:left;
-  clear: both;
+  margin:26px -33px 3px 2px;
+}
+header nav a{
+  height: 24px;
+  color: black;
+  margin: 75px 170px -23px -150px;
+  width: 53%;
+  float: left;
+}
+header img{
+  width:15%;
+  float:left;
+  margin:30px;
+  color: gray;
+}
+h2{
+  font-family:serif;
+}
+span{
+  font-size: 22px;
+}
+h3{
+
+}
+
+header nav ul li{
+  float:left;
+  display: block;
+}
+.smalText01{
+  font-size: 17px;
+  color: gray;
+  float: left;
+}
+.newsPaper{
+  float: left;
   width:100%;
-  height:130px;
-  background-color: black;
+  text-align: left;
+  margin-left: 10px;
+}
+.menu{
+  display: none;
+}
+.sub{
+  color:white;
+  background-color: #489708;
+  width:125px;
+  height:30px;
+  border: 1px solid #489708;
+
+}
+
+.email{
+
+  width:170px;
+  height:30px;
+}
+.tiTle{
+  font-size: 15px;
+  font-weight: 700;
+}
+.green{
+  color: green;
+}
+.message{
+  width:100px;
+  height:30px;
+  background-color:#3E433E;
   color:white;
 }
 
-
-header nav ul li{
-  float: left;
-  display: block;
-  width: 8%;
-  overflow: auto;
-  /* height: 48px; */
-  margin: 15px -11px 5px 28px;
-  text-align: center
-
-
+.image1{
+  margin: 8px 8px -3px 3px;
+float: left;
+width: 30%;
 }
-.menu{
-  width: 5%;
-  border: 1px solid black;
-  margin: 6px 0 0 3%;
-  float: left;
-}
-
-.middleSection{
-float:left;
-width:100%;
-overflow: hidden
-
-/* height:360px; */
-clear:both;
-}
-.lefttmid{
-  float: left;
-  width: 75%;
-  height: 438px;
-  background-color: green;
-}
-.rightmidchild{
+.button{
   float: right;
-  width:40%;
-  height:440px;
-  background-color: red;
-  clear: both;
 }
-
-.rightmidchild ul li{
-background-color: blue;
-height:90px;
-margin:13px 13px 13px 13px;
-}
-
-.lefttmid2{
+.headS{
   float: left;
-  width: 60%;
-  height: 438px;
-  background-color: purple;
+  text-align: center;
+  width: 100%;
+  /* height: 90px; */
+  background-color:#204B02;
+  color: white;
+  margin: 1px 1px 1px 1px;
 }
-
-
-.middleChild{
-  margin: 12px -1px 2px 2px;
-float: right;
-width: 24%;
-background-color: white;
-/* height: 360px; */
-overflow: hidden
-}
-
-.middleChild ul li{
-       float: right;
-      display: block;
-      width: 100%;
-      /* height: 157px; */
-      margin: 14px 14px 5px 28px
-}
-
-.colorgreen{
-      background-color: green;
-      color:white;
-      font-size: 11px;;
-}
-.gray{
-  background-color: gray;
-  height:50px;
-  text-align: left;
-}
-
-.middleChild1{
-  float:right;
-  display: block;
-  width:29%;
-  /* height:190px; */
+.fT{
+  float:left;
   margin: 0 0 0 0;
-  /* background-color: white; */
+}
+li{
+  list-style: none;
 }
 
-.bottomSection{
-  float:left;
-  width:100%;
-  /* height: 260px; */
-  clear: both;
-  overflow: auto;
-}
-
-
-
-.bottomSec{
-  width:33.3333%;
-  float:left;
-  /* height: 260px; */
-  clear: both;
-  /* overflow: auto; */
-}
-
-footer{
-  float:left;
-  clear:both;
-  width:100%;
-  height:130px;
-}
-
-footer nav ul li{
+.leftsection{
   float: left;
-  display: block;
-  width: 12%;
-  height: 88px;
-  margin: 14px 14px 5px 28px;
+      border: none;
+      width: 20%;
+      margin: 0 0px 2px 0px;
+      margin: 0 0 0 32px;
+  }
+
+
+.test{
+  width: 99%;
+  border: 2px solid black;
+
+}
+.smallNews{
+  border:none;
+  overflow: auto;
+  display: inline-block
+}
+.viDeo{
+width:45%;
+  float: left;
+}
+.rightsection{
+  float: left;
+    width: 29%;
+    margin: 21px 0 0 12px;
 }
 
-@media only screen and (max-width:768px){ /*insert responsive css here*/
-.ChildofFooter{
-display:none;
+
+
+.fT img{
+  width:10%;
+
 }
-.header1{
+
+.rightsection{
+  border: 1px solid black;
+  /* height: 573px; */
+  text-align: center;
+}
+
+.rightsection h4{
+  background-color: lightgray;
+      border: 1px solid black;
+      height: 70px;
+      margin: 0 0 -11px 0px;
+      text-align: center;
+  }
+
+
+
+/* .headS,h2,span{
+  margin: 0.6%;
+
+} */
+.annNual{
+  margin: 0.6%;
+  font-size: 19px;
+
+}
+.rightsection h2{
+  background-color: green;
+  border: 1px solid black;
+  color: white;
+  /* height: 70px; */
+  text-align: center;
+}
+.checkboxR{
+  /* margin: 0 0 0 0; */
+  width:40%;
+}
+/* .test img{
+  width: 20%;
+  margin: 9px 2px 2px 2px;
+} */
+/* for mobile */
+@media   screen and (max-width: 500px)
+{
+
+  .menu{
+    display: contents;
+  }
+
+.rightsection{
+  float: left;
+  margin: auto;
+  border: none;
+}
+.smallNews{
+  display: none;
+}
+header h3{
+  display: none;
+}
+ .viDeo{
+  float: left;
+}
+ img{
+   width: 342px;
+       /* margin: 1px 3px -5px -196px; */
+
+}
+
+.button{
+  display: none;
+}
+
+  button{
+    display: none;
+  }
+  .fa-bars {
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+    float:right;
+    display: inline;
+    margin: 0% 3% 1% 31%;
+  }
+
+  a{
+    display: none;
+  }
+  .headS{
+    display: none;
+  }
+  .fa-bars {
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+    float:right;
+    display: inline;
+    margin: 0% 3% 1% 31%;
+  }
+  .test{
+    display:none;
+  }
+
+.display{
+  display: none;
+}
+  header img {
+    width: 15%;
+    float: left;
+
+  }
+
+
+
+  .rightsection {
+    width: 100%;
+  }
+
+}
+
+
+/*tablet */
+@media  only screen and (min-width:501px)
+and (max-width: 979px)
+{
+  *{
+    margin: 0;
+  }
+  .menu{
+    display: contents;
+  }
+
+
+.display{
+  display: none;
+}
+.rightsection{
+  clear:left;
+}
+.button{
   display:none;
 }
-.menu{
-  float:right;
-  /* display: none; */
+  button{
+    display: none;
+  }
+  .leftsection{
+    display: none;
+  }
+  .vId{
+    float: left;
+    width: 222%;
+  }
+  a{
+    display: none;
+  }
+  .smallNews{
+    display: none;
+  }
+
+  .fa-bars {
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+    float:right;
+    display: inline;
+    margin: 0% 3% 1% 31%;
+  }
+
+
+  .test{
+    display:none;
+  }
+
+  .fa-bars {
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+    float:right;
+    display: inline;
+    margin: 0% 3% 1% 31%;
+  }
+
+
+  header img {
+    /* width: 43%; */
+    float: left;
+  }
+
+
+  /* .parentSection {
+    float: left;
+    width: 100%
+  } */
+  .rightsection {
+    width: 100%;
+  }
+
 }
-.middleSection, .leftchilmild,.middleChild{
-  width:100%;
-}
-.bottomSec{
-width: 100%;
-}
-header nav ul .ChildofUl{
-  float: left;
+
+
+
+
+
+
+/* desktop meda queries */
+@media only screen and (min-width:980px)
+and (max-width: 1291px)
+{
+  .display{
+    display: none;
+  }
+.leftsection{
   display: none;
+  border:none;
+}
+.smallNews{
+  display: none;
+}
+.vId{
+  float: left;
+  width: 222%;
+}
+  button{
+    display:none;
+  }
+  a{
+    display: none;
+  }
+
+
+  .test{
+    display:none;
+  }
+
+  .fa-bars {
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+    float:right;
+    display: inline;
+    margin: 0% 3% 1% 31%;
+  }
+
+
+
+  header img {
+    /* width: 43%; */
+    float: left;
+  }
+
+
+  .rightsection {
+    width: 100%;
+    border:none;
+  }
 
 }
-img iframe{
-  width:100%;
-  height:100%;
-
-}
-
-}
-
-
-
-
-
-/*********************  ****************************/
-
-/* for ipads */
-   /* @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2)
-   {
-     .ChildofFooter{
-     display:none;
-     }
-     .header1{
-       display:none;
-     }
-     .menu{
-       float:right;
-       /* display: none; */
-     }
-     .middleSection, .middleChild{
-       display: none;
-     }
-     .bottomSec{
-     width: 100%;
-     }
-     header nav ul .ChildofUl{
-       float: left;
-       display: none;
-
-     }
-   }
-
-/*********************  ****************************/
-/* Media Query for Laptops and Desktops */
-
-
-/* @media only screen and (max-width:960px){ /*insert responsive css here*/
-
-/* @media only screen and (max-width:960px){ /*insert responsive css here*/ */

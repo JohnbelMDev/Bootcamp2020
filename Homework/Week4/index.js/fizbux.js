@@ -1,0 +1,20 @@
+
+var i=0;
+while(i<100)
+{  i++;
+  if(i%3==0 && i%5==0)
+   {
+     console.log("FizzBuzz");
+   }
+  else if(i%3==0){
+    console.log("Fiz")
+  }
+  else if(i%5==0){
+    console.log("Buz");
+  }
+
+
+  else {
+    console.log(i);
+  }
+}

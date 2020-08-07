@@ -1,52 +1,57 @@
 * {
   box-sizing: border-box;
-
+   margin: 0;
 }
 
-header,
-
-.middleSection,
-.middleChild,
-.bottomSection,
-.bottomSec,
-.Undernav,
-footer,
-.topbottomsec,
-footer nav ul li,
-.History,
-.section4{
-  border: 1px solid black;
+.menu{
+  display: none;
+}
+li{
+  list-style: none;
+}
+.jwLI{
+  width: 214%;
+  float: right;
+  height: 50px;
+  margin: 2px 96px 57px 2px;
 
 }
+footer{
+  float:left;
+  clear:both;
+  width:100%;
+  background-color: #8F9CA3;
+  height:244px;
+}
 
+footer ul{
+  width: 31%;
+  float: left;
+  margin: 102px -175px 3px 24px;
+}
 
 header{
   float: left;
-    clear: both;
-    width: 100%;
-    height: 81px
+  clear: both;
+  width: 100%;
+  height: 81px;
 }
 
 
 header nav ul li{
   float: left;
-display: block;
-width: 5%;
-height: 39px;
-margin: 16px 63px 5px 28px
-}
-.menu{
+  display: block;
   width: 5%;
-  border: 1px solid black;
-  margin: 6px 0 0 3%;
-  float: left;
+  height: 39px;
+  margin: 16px 63px 5px 28px
 }
 
+
 .middleSection{
-float:left;
-width:100%;
-height:260px;
-clear:both;
+  float:left;
+  width:100%;
+  height:260px;
+  clear:both;
 }
 
 .middleChild{
@@ -58,39 +63,107 @@ clear:both;
 .bottomSection{
   float:left;
   width:100%;
-  /* height: 260px; */
   clear: both;
   overflow: auto;
 }
 
+.block{
+  display: inline-block;
+  width: 43%;
+  float: left;
+  margin: 115px 5px 4px 33px;
+}
 
 
 .bottomSec{
   width:33.3333%;
   float:left;
-  /* height: 260px; */
   clear: both;
   overflow: auto;
 }
-
+.form{
+  width: 78%;
+  height: 31px;
+  margin:5px 18px 3px 2px;
+}
 .topbottomsec{
   width: 100%;
   text-align: center;
   overflow: hidden;
-float: right;
-/* height: 300px; */
+  float: right;
+}
+.ptagLeft0 h4{
+  color:lightgray;
+}
+.newsletter{
+  float: left;
+  margin:7px 7px 10px 324px;
+  color:white;
+}
+.submit{
+  width:10%;
+  height: 31px;
+  margin:4px 98px 0 2px;
+
+}
+.heaDb{
+  margin:0;
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 6px 2px 3px 4px;
+}
+.picture {
+width:30%;
+height: 200px;
+float: left;
+margin-left: 400px;
+
+}
+.secTi{
+  float: left;
+  height:200px;
+  width:30%;
+  margin:11px -14px -3px 17px;
+}
+figcaption{
+  float: right;
+  margin:-2px -69px 0px 0px;
 }
 
+
+.picture img{
+width:65%;
+display: block;
+margin-left: 247px;
+padding-top: 15px;
+}
+.loRem{
+  float: left;
+  width:73%;
+  margin:0 0 0 19px;
+}
+.loRem p{
+  margin-top: -145px;
+
+}
+.loRem h2{
+  margin-top: 80px;
+  float: left;
+}
+.texH2{
+  padding-top: 80px;
+}
 .History{
   width: 100%;
   text-align: center;
   overflow: hidden;
-float: right;
+  float: right;
 }
 
 .section4{
   width: 100%;
-  /* text-align: center; */
   overflow: hidden;
   float: left;
 }
@@ -98,141 +171,434 @@ float: right;
   float: left;
   width:50%;
   height:350px;
-  background-color: blue;
-  border: 1px solid black;
-  /* background-color: url("") */
 }
+.Undernav img {
+  float:right;
+  width:26%;
+}
+
 .sectionchild{
   float: left;
-    width: 62%;
-    margin: 162px 0px 6px 39px;
-    height: 350px;
-    background-color: blue;
-    border: 1px solid black;
+  width: 69%;
+  margin: 56px 0px 6px 39px;
+  height: 350px;
 }
 .Undernav{
   overflow: hidden;
   width: 100%;
-  height:350px;
+  height:382px;
   text-align: center;
-float: right;
-border: 1px solid black;
-/* height: 300px; */
-    background-color: lightgray;
-background-size: contain;
-
- background-image: url(https://icon-library.com/images/female-profile-icon/female-profile-icon-12.jpg); */
-/* height: 260px; */
-clear: both;
-background-repeat: no-repeat;
-overflow: hidden;
-float: left;
-background-position: 961px -24px;
+  float: right;
+  background-color: #F1F3F5;
+  clear: both;
+  float: left;
 
 }
 
-footer{
+.copy ul{
+  float: right;
+  margin-top: -26px;
+  margin-right: 14px;
+  padding:5px 6px 7px 14px;
+
+
+}
+.spaNa{
+  margin: 12px 49px;
+  vertical-align:-34px;
+
+}
+
+.copy ul li{
+  display: inline;
+}
+.line{
+  margin: 55px 7px 7px 48px;
+      position: absolute;
+      border: 1px solid white;
+      width: 90%;
+      height: 1px;
+
+}
+
+.nav li{
+  display: inline;
+  padding:0 0 0 18px;
+}
+.sectionJ{
   float:left;
   clear:both;
   width:100%;
+  background-color: white;
   overflow: hidden;
-  height:130px;
+  height:341px;
 }
-
-footer nav ul li{
+.sectionJtxt{
+  margin: 27px 18px 3px 1px;
+  float: right;
+  clear: both;
+  width: 92%;
+  height: 83px;
+}
+.sectionJtxt-t{
+  margin: 28px 20px 5px 138px;
   float: left;
-display: block;
-overflow: hidden;
-width: 7%;
-height: 97px;
-margin: -62px 4px 59px 98px;
+  clear: both;
+  width: 28%;
+  height: 83px
+}
+.sectionJtxtt{
+  margin: -85px 20px 5px 138px;
+  float: right;
+  clear: both;
+  width: 28%;
+  height: 83px;
+}
+.sectionJtxtBt{
+  margin: 10px 372px 5px 138px;
+  float: right;
+  clear: both;
+  width: 37%;
+  height: 83px;
+}
+.sectionH{
+  clear:both;
+  width:100%;
+  background-color: lightgray;
+  overflow: hidden;
+  height:441px;
+}
+.sectionS{
+  float:right;
+  clear:both;
+  width:100%;
+  background-color: lightblue;
+  height:41px;
+}
+.sectionS input{
+  float:right;
+}
+.sectionW{
+  float:left;
+  clear:both;
+  width:100%;
+  background-color: white;
+  overflow: hidden;
+  height:621px;
+}
+.left{
+ padding-left:60px;
+
+}
+.para p{
+  float: left;
+  width:30%;
+  display:block;
 }
 
-@media only screen and (max-width:768px){ /*insert responsive css here*/
-.ChildofFooter{
-display:none;
+.sectionW img{
+  float: left;
+  width:24%;
+  margin: 4px 112px 3px 12px
 }
-.header1{
+.sectionW h2{
+  text-align: center;
+}
+.ptagLeft {
+  float: left;
+  width:40%;
+  height:90px;
+  margin:28px 13px 6px 50px;
+}
+.ptagLeft h4 {
+
+  color:lightgray;
+  margin-right: 40px;
+}
+
+.ptagLeft0{
+  float: left;
+  width:50%;
+  margin:24px 2px 2px 2px;
+}
+
+
+.left2{
+  margin-right: 40px;
+}
+.ptagLeft0 h2{
+  padding-right: 480px;
+}
+.image {
+  float:left;
+  width:80%;
+  border: 1px solid lightgray;
+  margin:18px 3px 2px 47px;
+
+}
+.image img{
+  float: left;
+  margin:0 4px 2px 7px;
+  padding: 0 2px 3px 5px;
+}
+
+@media screen and (max-width: 500px)
+{ *{
+  margin: 0;
+}
+
+.sectionJ{
+  display: none;
+}
+.jwLi{
+  float:right;
+}
+
+/* .Undernav img{
+  display: none;
+} */
+h2{
+  font-family:sans-serif;
+}
+p{
+  font-family: cursive;
+}
+
+.Undernav img{
+  float: right;
+  width:29%;
+  margin-right: -46px;
+}
+.sectionchild{
+  float: left;
+  margin:0;
+  height:0;
+}
+.ptagLeft0{
+  display: none;
+}
+.sectionS{
+  display: none;
+}
+.secTi{
+  float: left;
+  height:0;
+  width:0;
+
+}
+form{
+  display: none;
+}
+.clear{
+  display: none;
+}
+footer{
+  display: none;
+}
+figcaption{
+  display: none;
+}
+
+
+
+.menu{
+display:contents;
+float: right;
+height: 40px;
+}
+
+header{
   display:none;
 }
+
+
+
+.sec{
+  text-align: center;
+}
+.sec2,.sec3,.sec4,.sec5, .sec6{
+  width:100%;
+  /* float: left; */
+  margin: 103px 2px 8px 2px;
+}
+.box1,.box2,.box3{
+  width:100%;
+  margin:11px 4px 18px 0px;
+  border:0;
+}
+.rightsection{
+  float: none;
+  margin:0;
+  padding:0;
+  border: none;
+}
+/* .sec2{
+display: none;
+} */
+.Section3{
+  border:0;
+}
+
 .menu{
-  float:right;
-  /* display: none; */
-}
-.middleSection, .middleChild{
-  display: none;
-}
-.bottomSec{
-width: 100%;
-}
-header nav ul .ChildofUl{
   float: left;
+}
+.parentSection {
+  float: left;
+  width: 100%
+}
+.rightsection {
+  width: 100%;
+}
+}
+
+
+/*tablet */
+@media only screen and (min-width:501px)
+and (max-width: 968px)
+{*{
+  margin: 0;
+}
+
+.menu{
+  float: left;
+  display: contents;
+  height: 13px;
+}
+
+.clear{
+  display: none;
+}
+
+header{
+  display:none;
+}
+
+
+
+.sec{
+  text-align: center;
+}
+.sec2,.sec3,.sec4,.sec5, .sec6{
   display: none;
 
 }
+.submit, .form{
+display: none;
+}
+.sectionS{
+  background-color: blue;
+}
+
+footer{
+  display: none;
+}
+.sectionJ{
+  display: none;
+}
+.sectionH{
+  display: none;
+}
+header{
+  display: none;
+}
+.box1,.box2,.box3{
+  width:100%;
+  margin:11px 4px 18px 0px;
+  border:0;
+}
+.rightsection{
+  float: left;
+  margin:40px 0 0 0;
+  padding:0;
+  border: none;
+
+}
+
+.Section3{
+  border:0;
+}
+
+.menu{
+  float: left;
+  color: black;
+}
+.parentSection {
+  float: left;
+  width: 100%
+}
+.rightsection {
+  width: 100%;
+}
 
 }
 
 
+/* desktopmeda queries */
+@media only screen and (min-width:769px)
+and (max-width: 1344px)
+{
+  *{
+    margin: 0;
+
+  }
+
+  p,h2,span{
+    font-family: monospace;
+  }
+  .sectionH{
+    display: none;
+  }
+  .clear{
+    display: none;
+  }
 
 
 
-/*********************  ****************************/
+  .box1{
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 30%;
 
-/* for ipads */
-   @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2)
-   {
-     .ChildofFooter{
-     display:none;
-     }
-     .header1{
-       display:none;
-     }
-     .menu{
-       float:right;
-       /* display: none; */
-     }
-     .middleSection, .middleChild{
-       display: none;
-     }
-     .bottomSec{
-     width: 100%;
-     }
-     header nav ul .ChildofUl{
-       float: left;
-       display: none;
+  }
+  .red{
+    float:left;
+  }
+  .sec{
+    text-align: center;
+  }
+  .sec2,.sec3,.sec4,.sec5, .sec6{
+    display: none;
 
-     }
-   }
+  }
+  .box3{
+    display: none;
+  }
 
-/*********************  ****************************/
-/* Media Query for Laptops and Desktops */
-      @media (min-width: 1025px) and (max-width: 1280px){
-        .ChildofFooter{
-        display:none;
-        }
-        img{
-          width:100%;
-        }
-        .header1{
-          display:none;
-        }
-        .menu{
-          float:right;
-          /* display: none; */
-        }
-        .middleSection, .middleChild{
-          display: none;
-        }
-        .bottomSec{
-        width: 100%;
-        }
-        header nav ul .ChildofUl{
-          float: left;
-          display: none;
+  .rightsection{
+    float: none;
+    margin:40px 0 0 0;
+    padding:0;
+    border: none;
+    width:50%;
 
-        }
-      }
-/* @media only screen and (max-width:960px){ /*insert responsive css here*/
+  }
 
-/* @media only screen and (max-width:960px){ /*insert responsive css here*/
+  .Section3{
+    border:0;
+    font-family: serif;
+  }
+
+  .menu{
+    float: left;
+  }
+  .parentSection {
+    float: left;
+    width: 100%
+  }
+  .rightsection {
+    width: 100%;
+  }
+
+
+}
