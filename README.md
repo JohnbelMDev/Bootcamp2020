@@ -14,7 +14,3 @@ Image of Facebook HTML
 
 
 
-
-Image of New York Times HTML
-![Image of Boston HTML](https://github.com/JohnbelMDev/Bootcamp2020/blob/master/Homework/Week2/Newspapers%20with%20css/NYT/img/nyt.png?raw=true)
-
