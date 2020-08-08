@@ -1,0 +1,117 @@
+*{
+  margin:0;
+}
+
+body{
+  background-color: pink;
+}
+
+
+.parentSection{
+  clear: both;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-right: -50%;
+  width:50%;
+}
+
+.horroscope{
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  margin-right: -50%;
+  width:100%;
+}
+
+.ansWer{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  margin-right: -50%;
+  width:50%;
+
+
+}
+button{
+  width: 50%;
+  height: 50px;
+  color: white;
+  background-repeat: no-repeat;
+  background-image: url("https://ktar.com/wp-content/uploads/2019/08/milky-way-night-sky.jpg");
+  background-size: cover;
+}
+
+.enTer{
+  clear: both;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  margin-right: -50%;
+  width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media screen and (max-width: 500px)
+{ *{
+  margin: 0;
+}
+
+
+
+}
+
+
+/*tablet */
+@media only screen and (min-width:501px)
+and (max-width: 768px)
+{*{
+  margin: 0;
+}
+body{
+  background-color: blue;
+}
+
+
+
+
+
+
+
+}
+
+
+/* desktopmeda queries */
+@media only screen and (min-width:769px)
+and (max-width: 1344px)
+{
+  *{
+    margin: 0;
+  }
+
+
+
+
+}

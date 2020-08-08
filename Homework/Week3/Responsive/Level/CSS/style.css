@@ -157,9 +157,7 @@ header nav ul li{
   padding-left: 9%;
   padding-right: 9%;
 }
-body{
-  font-family: arial;
-}
+
 .Vollunteer{
 
   text-align: center;
@@ -258,12 +256,16 @@ footer{
   overflow: hidden;
   height:409px;
 }
+
+
 .btNav li{
   display: inline;
 }
 .butt1 li{
   display: inline;
 }
+
+
 .left{
   float: right;
   color:white;
@@ -275,20 +277,72 @@ footer{
 }
 
 .lineBottom{
-  width:90%;
-  height:1px;
-  border:1px solid white;
-  margin: 140px  0px 3px 75px;
+  width: 90%;
+    height: 1px;
+    margin-bottom: 90px;
+    border: 1px solid white;
+    margin: 345px 0px 3px 75px;
 }
 .bTo{
   margin-left: 75px;
   color:white;
 }
+
+.footer-left{
+  float: left;
+  text-align: left;
+  width:40%;
+  margin-left: 16px;
+}
+
+.footer-left-buttons{
+  display: block;
+  width:100%;
+  margin-top: 14px;
+}
+.footer-left-buttons i{
+  margin-right:20px;
+  display: inline-block;
+  color:white;
+
+}
+.footer-left-header{
+  margin-top: 4px;
+  color:gray;
+}
+.footer-left-list{
+  display:block;
+  width:100%;
+  margin-top: 14px;
+}
+.footer-left-list h5{
+  display:inline-block;
+  color: white;
+}
+
+
+.footer-right{
+  float: right;
+  text-align: left;
+  width:20%;
+}
+
+.footer-right{
+  color:white;
+}
+
+
+
+
+
 /* tablet */
-@media only screen and (min-width:501px) and (max-width:769px){ /*insert responsive css here*/
+@media only screen and (min-width:540px) and (max-width:769px){ /*insert responsive css here*/
   *{
     margin: 0;
   }
+  /* header{
+    background-color: red;
+  } */
 
   p{
     font-family:"Fira Mono";
@@ -312,9 +366,9 @@ footer{
     display: none;
 
   }
-  footer{
+  /* footer{
     display: none;
-  }
+  } */
   .Section4{
     display:none;
   }
@@ -333,14 +387,15 @@ footer{
 }
 
 /* mobile */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:530px){
   *{
     margin: 0;
   }
-
-  p{
-    font-family: serif;
+  .Section4{
+    display: none;
   }
+
+
   a,ul{
     display: none;
   }
@@ -355,12 +410,8 @@ footer{
     display: none;
 
   }
-  footer{
-    display: none;
-  }
-  .Section4{
-    display:none;
-  }
+
+
   .Voolun{
     display: none;
   }
@@ -384,12 +435,7 @@ footer{
 and (max-width: 1248px)
 {
   
-  h2{
-    font-family: cursive;
-  }
-  p{
-    font-family: monospace;
-  }
+
   .Section4{
     display:none;
   }

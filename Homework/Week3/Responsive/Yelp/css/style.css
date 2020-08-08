@@ -47,6 +47,7 @@ footer {
   float: left;
 }
 
+
 .buttons ul li {
   margin: 8px 0px 4px 208px;
   width: 0%;
@@ -273,7 +274,13 @@ img {
 
 /* for mobile */
 @media screen and (max-width: 590px) {
-
+.fa-search:before{
+  display: none;
+}
+.inPut{
+  width: 100%;
+  float: left;
+}
 
   nav {
     display: none;
@@ -299,10 +306,6 @@ img {
     display: none;
   }
 
-  .inPut {
-    width: 49%;
-    height: 60px;
-  }
 
   .card {
     width: 100%;
@@ -407,7 +410,7 @@ img {
 
 /* desktop meda queries */
 @media only screen and (min-width:980px) and (max-width: 1068px) {
-  
+
   .inPut {
     width: 49%;
   }

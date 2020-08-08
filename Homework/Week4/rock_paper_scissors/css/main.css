@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.table-containing-store{
+  float: left;
+  margin-top: -21px;
+  margin-left: 660px;
+  font-size: 50px;
+
+}
+.button-rock-name{
+  float: left;
+  margin-top: 126px;
+  margin-left: -192px
+
+}
+.status{
+  float: left;
+    margin-top: 300px;
+    margin-left: -301px;
+    border: 24px solid white;
+    width: 26%;
+    color:black;
+}
+button{
+  width:100%;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #4383c3), color-stop(60%, #30b4cb));
+}
+
+img{
+  width:14%;
+  margin-left: 549px;
+}
+h1{
+    margin-left: 549px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media screen and (max-width: 540px)
+{ *{
+  margin: 0;
+}
+
+.rightsection {
+  width: 100%;
+}
+
+table-containing-store {
+  float: left;
+  /* margin-top: -21px; */
+  margin-left: 567px;
+  font-size: 50px;
+}
+
+
+
+}
+
+
+/*tablet */
+@media only screen and (min-width:501px)
+and (max-width: 768px)
+{
+body{
+  background-color: red;
+}
+
+.rightsection {
+  width: 100%;
+}
+
+table-containing-store {
+  float: left;
+  /* margin-top: -21px; */
+  margin-left: 567px;
+  font-size: 50px;
+}
+}
+
+
+/* desktopmeda queries */
+@media only screen and (min-width:769px)
+and (max-width: 1344px)
+{
+  *{
+    margin: 0;
+  }
+  .rightsection {
+    width: 100%;
+  }
+
+  table-containing-store {
+    float: left;
+    /* margin-top: -21px; */
+    margin-left: 567px;
+    font-size: 50px;
+  }
+
+}

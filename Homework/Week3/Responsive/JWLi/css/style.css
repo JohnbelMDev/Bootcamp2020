@@ -350,24 +350,15 @@ padding-top: 15px;
 .sectionJ{
   display: none;
 }
-.jwLi{
-  float:right;
+.jwLI{
+  width: 280%;
+  float: none;
 }
 
-/* .Undernav img{
-  display: none;
-} */
-h2{
-  font-family:sans-serif;
-}
-p{
-  font-family: cursive;
-}
+
 
 .Undernav img{
   float: right;
-  width:29%;
-  margin-right: -46px;
 }
 .sectionchild{
   float: left;
@@ -542,9 +533,7 @@ and (max-width: 1344px)
 
   }
 
-  p,h2,span{
-    font-family: monospace;
-  }
+
   .sectionH{
     display: none;
   }
