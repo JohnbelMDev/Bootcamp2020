@@ -1,0 +1,35 @@
+body{
+background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.calculato-Buttons button{
+
+  width:25%;
+  border: 1px solid black;
+  height: 3em;
+  margin-left: 10em;
+  margin-top: 9em;
+  display: inline-block;
+  border-radius: 42px;
+  background: linear-gradient(90deg,#4383c3 40%,#30b4cb 60%);
+}
+input{
+  width: 25%;
+      border: 1px solid black;
+      height: 3em;
+      margin-left: 10em;
+      margin-top: 5em;
+      text-align: center;
+      border-radius: 42px;
+}
+.answer{
+  border-radius: 42px;
+    margin-right: 30em;
+    width: 35%;
+    border: 1px solid black;
+    height: 3em;
+    margin-left: 20em;
+    margin-top: 11em;
+    background-color: black;
+    color:white;
+    text-align: center;
+}

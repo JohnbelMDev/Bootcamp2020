@@ -6,6 +6,9 @@
 .menu{
   display: none;
 }
+h2 span p{
+  font-family: Arial;
+}
 li{
   list-style: none;
 }
@@ -20,6 +23,7 @@ footer{
   float:left;
   clear:both;
   width:100%;
+  color:white;
   background-color: #8F9CA3;
   height:244px;
 }
@@ -40,11 +44,23 @@ header{
 
 header nav ul li{
   float: left;
-  display: block;
-  width: 5%;
-  height: 39px;
-  margin: 16px 63px 5px 28px
+    display: block;
+    /* width: 5%; */
+    /* height: 39px; */
+    margin: 16px 63px 5px 28px;
 }
+.image-Simmons{
+  width: 11%;
+  padding-top: 17px;
+}
+#small-Simmons
+{
+  display: none;
+}
+/* .sectionS{
+  display: none;
+} */
+
 
 
 .middleSection{
@@ -92,14 +108,31 @@ header nav ul li{
   overflow: hidden;
   float: right;
 }
+
+.Develop-leadership{
+  border-top: 3px solid pink;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-top: 7px;
+
+
+
+}
+h2 h3 p{
+  font-family: Arial;
+}
 .ptagLeft0 h4{
   color:lightgray;
 }
 .newsletter{
   float: left;
-  margin:7px 7px 10px 324px;
+  margin:14px 7px 10px 324px;
   color:white;
 }
+
+/* .image-Simmons{
+  width:40%;
+} */
 .submit{
   width:10%;
   height: 31px;
@@ -136,7 +169,7 @@ figcaption{
 .picture img{
 width:65%;
 display: block;
-margin-left: 247px;
+margin-left: 356px;
 padding-top: 15px;
 }
 .loRem{
@@ -264,19 +297,29 @@ padding-top: 15px;
 .sectionH{
   clear:both;
   width:100%;
-  background-color: lightgray;
+  background-color: rgb(241,243,245);
   overflow: hidden;
   height:441px;
 }
 .sectionS{
-  float:right;
-  clear:both;
-  width:100%;
-  background-color: lightblue;
-  height:41px;
+  float: right;
+    clear: both;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    background-color: rgb(184,197,208);
+    /* height: 41px; */
 }
 .sectionS input{
-  float:right;
+  /* float:right; */
+
+    float: right;
+    padding: 2px 2px 2px 2px;
+    /* width: 19%; */
+    height: 42px;
+    /* margin: 1% 1% 0% 2%; */
+    /* padding: 0 1px 10px 6px; */
+    margin: 7px 55px 8px 17px;
 }
 .sectionW{
   float:left;
@@ -298,7 +341,7 @@ padding-top: 15px;
 
 .sectionW img{
   float: left;
-  width:24%;
+  /* width:24%; */
   margin: 4px 112px 3px 12px
 }
 .sectionW h2{
@@ -312,8 +355,11 @@ padding-top: 15px;
 }
 .ptagLeft h4 {
 
-  color:lightgray;
-  margin-right: 40px;
+  color: lightgray;
+margin-right: 42px;
+padding-top: 40px;
+padding-bottom: 39px;
+margin-top: -24px;
 }
 
 .ptagLeft0{
@@ -346,28 +392,45 @@ padding-top: 15px;
 { *{
   margin: 0;
 }
+ /* body{
+   background-color: yellow;
+ } */
+
+/* header{
+  display: none;
+} */
+.childofUnder{
+  width: auto;
+  text-align:center;
+}
+
+.sectionchild {
+    float: left;
+    width: 69%;
+    text-align: center;
+    padding-left: 26%;
+
+    /* margin: auto; */
+    /* margin: 56px 0px 6px 39px; */
+    height: 350px;
+  }
+
+
+
+
 
 .sectionJ{
   display: none;
 }
-.jwLi{
-  float:right;
+.jwLI{
+  width: 280%;
+  float: none;
 }
 
-/* .Undernav img{
-  display: none;
-} */
-h2{
-  font-family:sans-serif;
-}
-p{
-  font-family: cursive;
-}
+
 
 .Undernav img{
   float: right;
-  width:29%;
-  margin-right: -46px;
 }
 .sectionchild{
   float: left;
@@ -404,7 +467,7 @@ figcaption{
 .menu{
 display:contents;
 float: right;
-height: 40px;
+height: 90px;
 }
 
 header{
@@ -449,16 +512,167 @@ display: none;
 .rightsection {
   width: 100%;
 }
+
+
+.secTi {
+     float: left;
+    height: 0;
+    /* width: 5%; */
+    padding: 0px 2px 2px 172px;
+    margin: auto;
+    width:auto;
+
+}
+
+.sectionH {
+  clear: both;
+  width: 100%;
+  background-color: rgb(241,243,245);
+  /* overflow: hidden; */
+  height: auto;
+}
+
+.sectionW {
+    float: left;
+    clear: both;
+    width: 92%;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+.loRem{
+  /* float: left;
+  width:73%;
+  margin:0 0 0 19px; */
+  width: auto;
+    text-align: center;
+}
+.loRem p{
+  margin-top: -145px;
+
+}
+.loRem h2{
+  margin-top: 80px;
+  float: left;
+}
+
+
+
+
+
+.ptagLeft {
+    /* text-align: center;
+    float: left;
+    width: 100%;
+    height: 90px; */
+    display: inline-block;
+    width: auto;
+    height: auto;
+     /* margin: 28px 13px 6px 50px; */
+  }
+
+.image-Simmons{
+  display: none;
+}
+#small-Simmons{
+  display: inline-block;
+  float: none;
+  margin:auto;
+}
+.Simmons-Sections{
+  text-align: center;
+}
+
+.ptagLeft0{
+  float: left;
+  width: 100%;
+  margin: 24px 2px 2px 2px;
+}
+
+
+.sectionW {
+    float: left;
+    clear: both;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    height: auto;
+  }
+
+.sectionW {
+    float: left;
+    clear: both;
+    width: 92%;
+    background-color: white;
+  }
+
 }
 
 
 /*tablet */
-@media only screen and (min-width:501px)
-and (max-width: 968px)
+@media  screen and (min-width:550px)
+and (max-width: 943px)
 {*{
   margin: 0;
 }
+body{
+  background-color: red;
+}
+footer ul {
+    /* width: 31%; */
+    float: left;
+    margin:auto;
+  }
+.childofUnder{
+  width: auto;
+  text-align:center;
+}
+.line{
+  display: none;
+}
 
+
+
+
+.sectionchild {
+    float: left;
+    width: 69%;
+    text-align: center;
+    padding-left: 26%;
+
+    /* margin: auto; */
+    /* margin: 56px 0px 6px 39px; */
+    height: 350px;
+  }
+
+
+
+/* body{
+  background-color: black;
+} */
+.ptagLeft {
+    /* text-align: center;
+    float: left;
+    width: 100%;
+    height: 90px; */
+    display: inline-block;
+    width: auto;
+    height: auto;
+     /* margin: 28px 13px 6px 50px; */
+  }
+.sectionW{
+  height: auto;
+}
+.ptagLeft h4{
+  text-align: center;
+  padding: 5%;
+}
+  .ptagLeft0{
+    float: left;
+    width: 100%;
+    margin: 24px 2px 2px 2px;
+  }
 .menu{
   float: left;
   display: contents;
@@ -486,12 +700,26 @@ header{
 display: none;
 }
 .sectionS{
-  background-color: blue;
+  background-color:rgb(184,197,208);
 }
-
-footer{
+.sectionS{
   display: none;
 }
+.image-Simmons{
+  display: none;
+}
+#small-Simmons{
+  display: inline-block;
+  float: none;
+  margin:auto;
+}
+.Simmons-Sections{
+  text-align: center;
+}
+
+/* footer{
+  display: none;
+} */
 .sectionJ{
   display: none;
 }
@@ -531,27 +759,67 @@ header{
 }
 
 }
+/* @media only screen and () */
 
 
+@media  screen and (min-width:768px) and (max-width:1025px){
+  /* header{
+    background-color: yellow;
+  } */
+  header nav ul li{
+    float: left;
+      display: block;
+      /* width: 5%; */
+      /* height: 39px; */
+      margin: 13px 63px 5px 6px;
+  }
+
+}
 /* desktopmeda queries */
-@media only screen and (min-width:769px)
-and (max-width: 1344px)
+@media  screen and (min-width:769px)
+and (max-width: 1103px)
 {
   *{
     margin: 0;
 
   }
+  body{
+    background-color: pink;
+  }
+  .picture {
+  width:34;
+  height: 200px;
+  float: left;
+  margin-left: 400px;
 
-  p,h2,span{
-    font-family: monospace;
   }
-  .sectionH{
+  /* body{
+    background-color: red;
+  } */
+
+
+  /* .sectionH{
     display: none;
-  }
-  .clear{
+  } */
+  /* .clear{
     display: none;
+  } */
+
+.sectionH {
+    clear: both;
+    width: 100%;
+    background-color: rgb(241,243,245);
+    overflow: hidden;
+    height: 441px;
   }
 
+.secTi {
+  float: left;
+  height: 0;
+
+
+
+  }
 
 
   .box1{
@@ -560,6 +828,10 @@ and (max-width: 1344px)
     overflow: hidden;
     width: 30%;
 
+  }
+  .small-Simmons
+  {
+    display: none;
   }
   .red{
     float:left;

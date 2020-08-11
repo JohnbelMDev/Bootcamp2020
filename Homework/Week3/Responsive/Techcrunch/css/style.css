@@ -2,7 +2,8 @@
 
 
 
-* { box-sizing: border-box;}
+* { box-sizing: border-box;
+}
 
 a{
   text-decoration:none;
@@ -58,6 +59,9 @@ header nav ul li{
   width:100%;
   text-align: left;
   margin-left: 10px;
+}
+span{
+  font-size: 15px;
 }
 .menu{
   display: none;
@@ -214,9 +218,13 @@ header h3{
   float: left;
 }
  img{
-   width: 342px;
+   width: 162%;
+   float: right;
        /* margin: 1px 3px -5px -196px; */
 
+}
+span{
+  font-size: 15px;
 }
 
 .button{
