@@ -1,0 +1,26 @@
+
+
+
+.box1{
+  width:10%;
+  background-color: red;
+  margin:auto;
+  padding: auto;
+  height:40px;
+}
+.box2{
+  width:10%;
+  background-color: green;
+  margin: auto;
+  padding: auto;
+
+  height:40px;
+}
+.box3{
+  width:10%;
+  background-color: black;
+  margin:auto;
+  padding: auto;
+
+  height:40px;
+}

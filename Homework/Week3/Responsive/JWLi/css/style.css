@@ -140,13 +140,19 @@ h2 h3 p{
 
 }
 .heaDb{
-  margin:0;
+  /* margin:0; */
+  margin:11px 2px 4px 2px;
   border: 1px solid black;
   text-align: center;
   background-color: black;
   color:white;
   padding: 6px 2px 3px 4px;
 }
+
+.color-gray-boston{
+  color:lightgray;
+}
+
 .picture {
 width:30%;
 height: 200px;
@@ -288,11 +294,15 @@ padding-top: 15px;
   height: 83px;
 }
 .sectionJtxtBt{
-  margin: 10px 372px 5px 138px;
-  float: right;
-  clear: both;
-  width: 37%;
-  height: 83px;
+  margin: 11px 57px 9px 142px;
+float: right;
+clear: both;
+width: 77%;
+height: 83px;
+}
+
+.input-Email{
+  width:17%;
 }
 .sectionH{
   clear:both;
@@ -388,7 +398,7 @@ margin-top: -24px;
   padding: 0 2px 3px 5px;
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 561px)
 { *{
   margin: 0;
 }
@@ -616,9 +626,8 @@ and (max-width: 943px)
 {*{
   margin: 0;
 }
-body{
-  background-color: red;
-}
+
+
 footer ul {
     /* width: 31%; */
     float: left;
@@ -783,9 +792,7 @@ and (max-width: 1103px)
     margin: 0;
 
   }
-  body{
-    background-color: pink;
-  }
+
   .picture {
   width:34;
   height: 200px;
@@ -810,7 +817,8 @@ and (max-width: 1103px)
     width: 100%;
     background-color: rgb(241,243,245);
     overflow: hidden;
-    height: 441px;
+    height: auto;
+    /* height: 441px; */
   }
 
 .secTi {

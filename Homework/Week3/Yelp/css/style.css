@@ -19,9 +19,6 @@ header,
 .blue {
   color: blue;
 }
-a{
-  font-weight: bold;
-}
 
 .fa-bars:before {
   display: none;
@@ -325,7 +322,7 @@ img {
 }
 
 /* for mobile */
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 509px) {
 .fa-search:before{
   display: none;
 }
@@ -336,7 +333,6 @@ img{
 *{
   margin: 0;
 }
-
 
 .yelp-logo {
     width: 23%;
