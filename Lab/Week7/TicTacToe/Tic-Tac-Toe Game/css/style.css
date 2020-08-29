@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+body{
+  background-color: black;
+      background-image: url('https://s3.envato.com/files/242065350/590x332.jpg');
+}
+  #board {
+    margin: 0 auto;
+    margin-top: 12%;
+    width: 75%;
+    height: 300px;
+  }
+
+  section {
+    border: 1px white solid;
+    width: 33%;
+    height: 33%;
+    float: left;
+
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    margin-top: 11%;
+    text-decoration: underline overline;
+
+  }
+  button:hover{
+    background-color: red;
+  }
+
+  h1:hover{
+    text-align: center;
+    background-color: blue;
+  }
+
+#board section:first-child {
+      border-left: none;
+      border-top: none;
+    }
+
+  #board section:nth-child(2) {
+      border-top: none;
+    }
+
+  #board section:nth-child(3) {
+      border-top: none;
+      border-right: none;
+    }
+
+  #board section:nth-child(4) {
+      border-left: none;
+    }
+
+  #board section:nth-child(6){
+      border-right: none;
+    }
+
+  #board section:nth-child(7){
+        border-left: none;
+        border-bottom: none;
+    }
+
+  #board section:nth-child(8){
+      border-bottom: none;
+    }
+
+  #board section:last-child {
+      border-right: none;
+      border-bottom: none;
+    }
+
+
+
+    .x {
+      background-image: url('https://www.allfree-clipart.com/upload/2017/02/06/20170206164317-47ff70ca.png');
+      background-color:url("https://ak.picdn.net/shutterstock/videos/26827741/thumb/1.jpg");
+        background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .circle {
+      background-image: url("https://lh3.googleusercontent.com/proxy/uXwDQTif5hoJC41zT6ue_H0FAX2hXAwFBv-YEio-NudbmoAmVRzh-P0aN6GgnvUde4dkqTd5N9iKQFU77I1c-UxduQ6yqttQPWGQArm2pjBzz1dVecImHI7ovg");
+      background-color:url("https://ak.picdn.net/shutterstock/videos/26827741/thumb/1.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #restartButton {
+      margin-left: 48%;
+      display: none;
+    }
+
+    #restartButton + button {
+      margin-left: 43%;
+    }
+
+.gone {
+  display: none;
+}

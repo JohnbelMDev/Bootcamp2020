@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+<h1 id=title>Tic-Tac-Toe</h1>
+  <!-- board container -->
+  <div id="board">
+    <!-- Childs of the board container -->
+    <section id="0" class='cell'></section>
+    <section id="1" class='cell'></section>
+    <section id="2" class='cell'></section>
+    <section id="3" class='cell'></section>
+    <section id="4" class='cell'></section>
+    <section id="5" class='cell'></section>
+    <section id="6" class='cell'></section>
+    <section id="7" class='cell'></section>
+    <section id="8" class='cell'></section>
+  </div>
+<button id ="restartButton" onclick='game.restart()'>Restart</button>
+<button id ='modeChanger' onclick='game.impossible()'>Player vs. Player</button>
+  <script type="text/javascript" src="Script/gameObject.js"></script>
+</body>
+
+</html>
