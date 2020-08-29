@@ -1,7 +1,7 @@
+
 #totalBalance,#playButton,#optionsBet{
   width: 20%;
   /* credit to mdn */
-
   height:5em;
   margin:17% 0 10% 10%;
   color:orange;
@@ -13,6 +13,10 @@
 }
 h1{
   text-align: center;
+  background:  url(https://i.gifer.com/U0A2.gif) no-repeat center center fixed;
+  background-size: cover;
+
+
   text-shadow: 1px 1px;
   color: gold;
   width:96%;
@@ -39,7 +43,10 @@ border: 1px solid blue;
 .main-slot-section{
   width:80%;
   margin: auto;
-  background-image: url("https://image.freepik.com/free-photo/creative-background-roulette-gaming-dice-cards-casino-chips-dark-background_99433-24.jpg");
+
+  background:  url(https://i.gifer.com/U0A2.gif) no-repeat center center fixed;
+/* credit to https://gifer.com/en/gifs/gambling */
+  /* background-image: url("https://image.freepik.com/free-photo/creative-background-roulette-gaming-dice-cards-casino-chips-dark-background_99433-24.jpg"); */
   margin-top:1%;
   background-repeat: no-repeat;
   background-size: contain;

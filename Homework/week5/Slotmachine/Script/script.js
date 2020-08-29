@@ -52,7 +52,7 @@ function playstart(){
     // once the user win it will all the total by 10
     total= total + (parseInt(betNumber.value) * 10);
     totalBalance.innerHTML=total;
-    console.log("inside if" + first)
+      
 
   }
 

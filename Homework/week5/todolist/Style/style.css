@@ -1,6 +1,14 @@
+/* add gif */
+/* learned through code pen */
+html {
+  background:  url(https://i.gifer.com/445q.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
 h1{
   text-align: center;
   color:white;
+
   background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
@@ -8,27 +16,25 @@ h1{
 ul{
   list-style-type: none;
 }
-body{
-  background-color:rgb(245,245,220);
-}
+
 #inputField, #clearComplete,#clearAll,#addTolist{
   background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
             border-radius: 25px;
-            color: black;
+            color: white;
             font-size: 18px;
+            background:  url(https://i.gifer.com/2ZQ3.gif) no-repeat center center fixed;
+
 
 }
 #inputField:hover, #clearComplete:hover, #clearAll:hover,#addTolist:hover{
-  background-color: white;
+  background-color: red;
 }
 #inputField{
   margin-left: 40%;
   margin-top: 35%;
   border-radius: 25px;
-
-  /* height:3em; */
 }
 #todoList{
   margin-left: 40%;
@@ -72,7 +78,7 @@ height: 40em;
 /* mobile */
 @media screen and (max-width: 561px)
 {
-  
+
   #clearAll,#clearComplete,#addTolist,#inputField{
     width: 97%;
     margin: 0;

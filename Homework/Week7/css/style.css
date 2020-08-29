@@ -1,0 +1,14 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  width:306px;
+  margin:50px auto;
+}
+.grid {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border:2px solid #333333;
+
+
+}
